@@ -2198,7 +2198,9 @@ footer h1 {
 .category-section .catogory-group .category-slider {
     width: -webkit-calc(100% + 30px);
     width: calc(100% + 30px);
-    margin: 0 -15px
+    margin: 0 -15px;
+    display: flex;
+    
 }
 
 .category-section .catogory-group .category-slider .slick-arrow.slick-prev {
@@ -3139,5 +3141,5 @@ footer h1 {
 
 .slide-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }

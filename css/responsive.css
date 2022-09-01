@@ -275,7 +275,8 @@ header.fixed-header {
         padding: 20px;
         position: relative;
         text-align: center;
-        width: 100%
+        width: 100%;
+        display:flex;
     }
 
     .offer-section .category-slider2 .offer-box h3,.offer-section .category-slider2 .offer-box p {
